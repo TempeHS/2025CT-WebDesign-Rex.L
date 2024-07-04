@@ -1,0 +1,14 @@
+.navbar {
+    background-color:#EFE9E7;
+}
+
+.btn {
+    background-color:#111344;
+    border-color:#111344;
+    border-radius:10px;
+}
+
+.btn:hover {
+    background-color:#111344;
+    border-color:green
+}
