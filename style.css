@@ -2,13 +2,30 @@
     background-color:#EFE9E7;
 }
 
-.btn {
-    background-color:#111344;
-    border-color:#111344;
+.btn  {
+    background-color:rgb(1, 1, 59);
+    border-color:white;
+    border-radius:black
+}
+
+.backGround {
+    background-color:white;
+}
+
+.carousel {
+    padding-top:30px;
     border-radius:10px;
 }
 
-.btn:hover {
-    background-color:#111344;
-    border-color:green
+.accordion {
+    padding-top:30px;
+
+}
+
+.col {
+    padding-top:30px;
+}
+
+.map {
+    border-radius:10px;
 }
