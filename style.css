@@ -30,6 +30,7 @@
 
 .map {
     border-radius:10px;
+    border: 10px solid white
 }
 
 .video {
@@ -44,4 +45,8 @@
 
 .footer {
     background-color:black;
+}
+
+.link {
+    color: ivory
 }
