@@ -8,17 +8,16 @@
     border-radius:black
 }
 
-.backGround {
-    background-color:white;
+.btn-hover {
+    background-color:cyan
 }
-
 .carousel {
-    padding-top:30px;
     border-radius:10px;
 }
 
 .accordion {
     padding-top:30px;
+    color:black
 
 }
 
@@ -28,4 +27,13 @@
 
 .map {
     border-radius:10px;
+}
+
+.video {
+    border-radius:10px;
+}
+
+.card {
+    background-color:#111344;
+    color:white;
 }

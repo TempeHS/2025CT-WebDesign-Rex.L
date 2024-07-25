@@ -12,10 +12,10 @@
 
 </head>
 
-<body>
+<body style="background-color:#DAE0F2">
     <!-- NAV STARTS HER -->
     <nav class="navbar navbar-expand-lg navbar">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" height="110"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -49,7 +49,8 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" class="search" type="search" placeholder="Search"
+                        aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
@@ -139,16 +140,94 @@
     </div>
     <!-- END CARDS -->
     <!-- START CONTENT -->
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-                <br>
-                Welcome to StudentAid! Here you will find all the resources that you will need to help you succeed in
-                your next test! We are a webside specialising in helping students who struggle with homework, exams,
-                etc.
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i><strong>About Us</strong></i> </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Welcome to StudentAid! Here you will find all the resources that you will need to help
+                            you
+                            succeed in
+                            your next test! We are a webside specialising in helping students who struggle with
+                            homework,
+                            exams,
+                            etc.</strong>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <br>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i><strong>What we provide</strong></i>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Magnis tempus morbi iaculis posuere torquent natoque lacus platea cubilia. Habitant
+                            torquent
+                            himenaeos laoreet, maximus
+                            placerat nec interdum sodales. Parturient felis augue magna neque ridiculus a. Vel cras
+                            suscipit
+                            scelerisque quam
+                            magnis. Arcu pretium diam posuere urna egestas consectetur accumsan finibus. Odio ac auctor
+                            sapien
+                            ut maecenas. Risus
+                            sem ad morbi tristique nisl justo. Ullamcorper justo habitant nec libero justo penatibus!
+                            Fermentum
+                            porta at ligula
+                            magna mattis feugiat nullam netus. Lorem ipsum odor amet, consectetuer adipiscing elit.
+                            Nullam
+                            libero sagittis nam, pellentesque ornare orci. Integer nam
+                            nulla gravida, ante bibendum pulvinar ullamcorper tristique. Neque finibus fames tellus
+                            integer
+                            id
+                            sapien aliquam. Metus
+                            ante per fringilla vulputate nisl eget cursus. Neque montes urna cursus parturient accumsan.
+                            Donec
+                            purus cursus;
+                            elementum facilisi eros odio. Dis ac tempus dui congue ante eleifend.</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i><strong>FAQ </strong></i>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Imperdiet sem varius phasellus leo cubilia maximus augue. Nibh massa risus per per dui.
+                            Netus
+                            augue aenean sapien fames
+                            primis pulvinar tempus rutrum. Praesent vestibulum interdum pulvinar tincidunt tincidunt
+                            porttitor pulvinar torquent
+                            netus. Vehicula orci nascetur purus curae suscipit, conubia fames! Taciti tristique mattis
+                            conubia lorem cursus morbi
+                            sociosqu. Maecenas proin dictum hendrerit imperdiet faucibus. Nunc lobortis aptent montes
+                            class
+                            nostra ex. Ac fermentum
+                            egestas; volutpat facilisis magnis condimentum hendrerit blandit. Dolor turpis potenti
+                            magnis
+                            tempor platea at etiam
+                            fringilla praesent. Viverra tortor ac id elementum purus, tellus praesent magnis.
+                            Ullamcorper pharetra ornare scelerisque posuere libero
+                            rhoncus sapien. Montes sagittis sem finibus placerat iaculis semper tincidunt. Fermentum
+                            tincidunt ullamcorper sapien
+                            proin hac etiam massa finibus porta. Auctor semper tempus curae ipsum placerat nisl? Dictum
+                            interdum augue vestibulum
+                            penatibus volutpat tristique magnis faucibus. Et tristique eu sit non auctor risus dolor
+                            laoreet? Felis aliquet vitae
+                            aenean nec lobortis eleifend libero egestas.</strong>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
