@@ -5,11 +5,14 @@
 .btn  {
     background-color:rgb(1, 1, 59);
     border-color:white;
-    border-radius:black
+    border-radius:black;
+    color:white;
 }
 
-.btn-hover {
-    background-color:cyan
+.btn:hover {
+    background-color:white;
+    border-color:black;
+    color:black;
 }
 .carousel {
     border-radius:10px;
@@ -31,9 +34,14 @@
 
 .video {
     border-radius:10px;
+    border-color:black 50px;
 }
 
 .card {
     background-color:#111344;
     color:white;
+}
+
+.footer {
+    background-color:black;
 }
