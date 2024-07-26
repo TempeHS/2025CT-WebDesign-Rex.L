@@ -16,6 +16,10 @@
 }
 .carousel {
     border-radius:10px;
+    right:0;
+    left:0;
+    border-style:dashed 10px;
+    border-radius:10%;
 }
 
 .accordion {
@@ -36,6 +40,7 @@
 .video {
     border-radius:10px;
     border-color:black 50px;
+    border-style:dashed 3px;
 }
 
 .card {
